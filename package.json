@@ -1,33 +1,33 @@
 {
-  "name": "voxel-pp",
-  "version": "0.0.4",
-  "description": "GLSL post-processing module for Voxel.js",
-  "main": "index.js",
-  "scripts": {
-    "start": "echo \"open localhost:8080/\" && ./node_modules/.bin/browserify demo.js -o bundle.js -d && node_modules/.bin/serve . -p 8080",
-    "prepublish": "./node_modules/.bin/browserify demo.js -o bundle.js"
-  },
-  "keywords": [
-    "voxel",
-    "post-processing",
-    "three",
-    "shader",
-    "glsl",
-    "fragment",
-    "image",
-    "graphics"
-  ],
-  "author": "Hugh Kennedy <hughskennedy@gmail.com> (http://hughskennedy.com)",
-  "license": "MIT",
-  "dependencies": {
-    "three-effectcomposer": "0.0.1"
-  },
-  "devDependencies": {
-    "browserify": "~1.17.2",
-    "serve": "~1.1.0",
-    "minecraft-skin": "0.0.1",
-    "voxel": "~0.1.1",
-    "voxel-debris": "0.0.4",
-    "voxel-engine": "~0.3.8"
-  }
+    "name": "voxel-pp",
+    "version": "0.0.4",
+    "description": "GLSL post-processing module for Voxel.js",
+    "main": "index.js",
+    "scripts": {
+        "start": "echo \"open localhost:8080/\" && ./node_modules/.bin/browserify demo.js -o bundle.js -d && node_modules/.bin/serve . -p 8080",
+        "prepublish": "./node_modules/.bin/browserify demo.js -o bundle.js"
+    },
+    "keywords": [
+        "voxel",
+        "post-processing",
+        "three",
+        "shader",
+        "glsl",
+        "fragment",
+        "image",
+        "graphics"
+    ],
+    "author": "Hugh Kennedy <hughskennedy@gmail.com> (http://hughskennedy.com)",
+    "license": "MIT",
+    "dependencies": {
+        "three-effectcomposer": "git://github.com/seacloud9/three-effectcomposer.git"
+    },
+    "devDependencies": {
+        "browserify": "~1.17.2",
+        "serve": "~1.1.0",
+        "minecraft-skin": "0.0.1",
+        "voxel": "~0.1.1",
+        "voxel-debris": "0.0.4",
+        "voxel-engine": "~0.3.8"
+    }
 }
